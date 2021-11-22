@@ -1,0 +1,16 @@
+.heading {
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
+.textColor {
+    font-size: 2.5rem;
+    background-color: blueviolet;
+}
+
+.textPadding {
+    padding: 3rem 10rem;
+    color: #fff !important;
+}

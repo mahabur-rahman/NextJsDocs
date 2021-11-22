@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: lightblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    color: red;
+    font-size: 6rem !important;
+}
+
+
+/* for navbar */
+
+#header {
+    overflow: hidden;
+    .navbar {
+        background-color: #000;
+    }
+    a {
+        color: #fff;
+    }
+}
+
+// 404 page / error page 👍
+#error {
+    overflow: hidden;
+    text-align: center;
+    h1 {
+        color: #ff0000;
+        font-size: 4rem;
+        font-style: italic;
+    }
+}
+
+
+/* end of navbar */
